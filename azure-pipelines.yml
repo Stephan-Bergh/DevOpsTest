@@ -8,6 +8,7 @@ trigger:
 
 pool: 
   name: my-personal-computer
+  demands: SpecialSoftware
 
 steps:
 - task: NodeTool@0
